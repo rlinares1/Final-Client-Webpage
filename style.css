@@ -1,0 +1,256 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+	margin: 0;
+	display: block;
+	cursor: url("https://img.icons8.com/plasticine/48/000000/chicken.png") 20 20, auto;
+}
+
+.rows {
+	display: flex;
+	width: 100%;
+	height: 25%;
+}
+
+.columns {
+	display: flex;
+	text-align: center;
+}
+
+.column-grid {
+	width: calc(100%/3);
+	height: 100%;
+}
+
+.blue {background-color: #0084D5;}
+
+.title {
+	width: 100%;
+	text-align: center;
+	margin: 10px;
+	margin-left: calc(100%/10);
+	margin-right: calc(100%/10);
+	border-style: solid;
+	border-color: #E27202;
+	border-width: 15px;
+}
+
+.title2 {
+	margin: 10px;
+	border-style: solid;
+	border-color: #E27202;
+	border-width: 15px;
+}
+
+h1 {
+	margin: 0;
+	color: white;
+	font-size: 100px;
+	font-family: 'Bangers', cursive;
+}
+
+h2 {
+	margin: 0;
+	color: white;
+	font-size: 50px;
+	font-family: 'Bangers', cursive;
+}
+
+.quote {
+	color: red;
+	font-size: 35px;
+	text-align: center;
+	margin: 3px;
+}
+
+.cheeringimage {
+	display: none;
+}
+
+.images {
+	border-style: solid;
+	border-color: #E27202;
+	border-width: 10px;
+	width: 75%;
+	height: 75%;
+}
+
+.images2 {
+	border-style: solid;
+	border-color: #E27202;
+	border-width: 10px;
+	width: 40%;
+	height: 40%;
+}
+
+.images3 {
+	border-style: solid;
+	border-color: #E27202;
+	border-width: 10px;
+	width: 75%;
+	height: 400px;
+}
+
+.images4 {
+	border-style: solid;
+	border-color: #E27202;
+	border-width: 10px;
+	width: 75%;
+	height: 75%;
+	margin: 8px;
+}
+
+.infotext {
+	margin: auto;
+	margin-top: 2%;
+	border-style: solid;
+	border-color: #E27202;
+	border-width: 5px;
+	width: 75%;
+}
+
+.infotext2 {
+	margin: auto;
+	margin-top: 2%;
+	border-style: solid;
+	border-color: #E26202;
+	border-width: 5px;
+	width: 50%;
+}
+
+p {
+	color: #1B1B1B;
+	font-family: 'Graduate', cursive;
+}
+
+.p2 {
+	color: #1B1B1B;
+	font-family: 'Graduate', cursive;
+	font-size: 15px;
+}
+
+/*
+.cheeringimage {content: url("images/crowdcheering.png");}
+*/
+
+/* iPad size */
+@media only screen and (max-width: 768px) {	
+	h1 {
+		font-size: 70px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+	
+	.infotext {
+		border-width: 2px;
+		width: 90%;
+	}
+	
+	.infotext2 {
+		border-width: 2px;
+		width: 80%;
+	}
+	
+	p {
+		font-size: 15px;
+	}
+
+	.p2 {
+		font-size: 14px;
+	}
+	
+	.title2 {
+		border-width: 7px;
+	}
+	
+	.images2 {
+		width: 50%;
+		height: 50%;
+	}
+	
+	.images3 {
+		margin-top: 30%;
+		width: 90%;
+		height: 90%;
+	}
+}
+
+/* iPhone 6, 7, 8, and plus */
+@media only screen and (max-width: 414px) {
+	.columns {
+		display: block;
+	}
+	
+	.column-grid {
+		height: calc(100%/4);
+		width: 100%;
+		margin: 8px;
+	}
+	
+	.images3 {
+		margin: 0;
+	}
+	
+	h1 {
+		font-size: 50px;
+	}
+	
+	.cheeringimage {
+		display: block;
+		content: url("images/crowdcheering.png");
+		margin-left: auto;
+		margin-right: auto;
+		width: 52.7%;
+	}
+}
+
+/* iPhone X size */
+@media only screen and (max-width: 375px) {
+	.columns {
+		display: block;
+	}
+	
+	.column-grid {
+		height: calc(100%/4);
+		width: 100%;
+	}
+	
+	h1 {
+		font-size: 45px;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+	
+	p {
+		font-size: 12px;
+	}
+
+	.p2 {
+		font-size: 12px;
+	}
+	
+	.title {
+		border-width: 7px;
+	}
+	
+	.images2 {
+		margin-top: 3%;
+	}
+	
+	.images3 {
+		margin: 0;
+	}
+	
+	.cheeringimage {
+		display: block;
+		content: url("images/crowdcheering.png");
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+}
