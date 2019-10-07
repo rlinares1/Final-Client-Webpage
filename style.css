@@ -135,6 +135,7 @@ p {
 */
 
 /* iPad size */
+/* Makes text and image grids more condensed, and smaller */
 @media only screen and (max-width: 768px) {	
 	h1 {
 		font-size: 70px;
@@ -179,6 +180,7 @@ p {
 }
 
 /* iPhone 6, 7, 8, and plus */
+/* Stacks images and text grids on top of each other, while cheering crowd image is on the bottom of the screen */
 @media only screen and (max-width: 414px) {
 	.columns {
 		display: block;
@@ -208,6 +210,7 @@ p {
 }
 
 /* iPhone X size */
+/* Does the same as the iPhone 6, 7, 8, and plus sizes */
 @media only screen and (max-width: 375px) {
 	.columns {
 		display: block;
